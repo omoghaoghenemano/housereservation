@@ -1,10 +1,11 @@
 .heads{
   background-color: rgb(112, 190, 232);
   display: flex;
+  padding:1rem
 }
 body{
-  background-color: azure;
-}
+  background-color: white;
+  font-family:'Times New Roman', Times, serif}
 .heads > div{
 margin-left: 1rem;
 padding:0.6rem;
@@ -15,25 +16,90 @@ color: white;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+
   
 
 }
+.swippersc{
+  position: relative;
+  display: flex;
+width: 100% !important;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  background: #FFFF;
+  margin-top: 20px;
+  padding:1rem;
+top:400px;
+width: 70%;
+border-radius: 20px;
 
 
+  z-index: 10000;
+  position: absolute;
+
+
+}
 .boxheader{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 
 }
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
 
+}
+.about > div{
+  width:50%
+}
+.avatar{
+  height: 200px;
+  width: 200px !important;
+  border-radius: 50%;
+  background: green;
+  margin-right: 50px;
+}
 .footer{
   display: flex;
 justify-content: space-between;
 width:100%;
 gap: 2rem;
+padding: 1rem;
 }
 
 .footer > div{
   width:50%
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.swiper-slide img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+
+  height: 100% !important;
+}
+.forimage{
+  width: 100%;
+
+  height: 600px !important;
+
 }

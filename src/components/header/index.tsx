@@ -7,23 +7,35 @@ const Header: React.FunctionComponent<IAppProps> = (props) => {
     <div className="main">
       <div className="boxheader">
         <div>
-          <Typography
-            sx={{ fontSize: "28px", fontWeight: 600, color: "green" }}
-          >
-            Be My Guest
-          </Typography>
-          <Typography
-            sx={{
+          <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+            <p style={{ fontSize: "28px", fontWeight: 600, color: "green" }}>
+              Be My Guest
+            </p>
+            <img
+              src="avater.jpeg"
+              style={{
+                width: "50px",
+                height: "50px",
+                borderRadius: "50%",
+                border: "solid",
+
+                objectFit: "contain",
+              }}
+            />
+          </div>
+
+          <p
+            style={{
               fontSize: "28px",
               fontWeight: "10px",
-              marginTop: "-10px",
+              marginTop: "-20px",
               color: "black",
             }}
           >
             Host Rental in Warri,Delta State
-          </Typography>
+          </p>
         </div>
-        <div>{"Book Now >"}</div>
+        <h3>{"Book Now >"}</h3>
       </div>
       <div>
         <div className="heads">
