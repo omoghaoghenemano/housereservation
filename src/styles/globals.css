@@ -1,10 +1,15 @@
 .heads{
-  background-color: green;
+  background-color: rgb(112, 190, 232);
   display: flex;
+}
+body{
+  background-color: azure;
 }
 .heads > div{
 margin-left: 1rem;
-padding:0.6rem
+padding:0.6rem;
+cursor: pointer;
+color: white;
 }
 .main{
   display: flex;
@@ -12,4 +17,23 @@ padding:0.6rem
   gap: 0.7rem;
   
 
+}
+
+
+.boxheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer{
+  display: flex;
+justify-content: space-between;
+width:100%;
+gap: 2rem;
+}
+
+.footer > div{
+  width:50%
 }

@@ -5,8 +5,26 @@ interface IAppProps {}
 const Header: React.FunctionComponent<IAppProps> = (props) => {
   return (
     <div className="main">
-      <Typography>Be My Guest</Typography>
-      <Typography>Host Rental in Warri,Delta State</Typography>
+      <div className="boxheader">
+        <div>
+          <Typography
+            sx={{ fontSize: "28px", fontWeight: 600, color: "green" }}
+          >
+            Be My Guest
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "28px",
+              fontWeight: "10px",
+              marginTop: "-10px",
+              color: "black",
+            }}
+          >
+            Host Rental in Warri,Delta State
+          </Typography>
+        </div>
+        <div>{"Book Now >"}</div>
+      </div>
       <div>
         <div className="heads">
           <div>Home</div>
